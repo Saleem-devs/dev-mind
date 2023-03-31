@@ -143,7 +143,7 @@ function ChatContainer() {
         setConversation(newConvo11);
         break;
       default:
-        fetch("http://localhost:5000", {
+        fetch("https://devmind.onrender.com", {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
